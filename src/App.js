@@ -45,6 +45,10 @@ function App() {
           <CastleDropdown setCastleId={setCastleId}/>
         </section>
         {/* here, the SloganForm component takes in the setSlogans state handler function and the slogans array that live in state */}
+        <SloganForm 
+          setSlogans={setSlogans}
+          slogans={slogans}
+        />
         {/* here, the SloganList component takes the array of slogans that lives in state */}
 
       </div>
