@@ -50,6 +50,7 @@ function App() {
           slogans={slogans}
         />
         {/* here, the SloganList component takes the array of slogans that lives in state */}
+        <SloganList slogans={slogans} />
 
       </div>
     </div>
