@@ -9,7 +9,7 @@ body, html, #root, .App {
     align-items: center;
 }
 
-.city {
+.city img {
     width: 300px;
     height: 33vh;
 }
